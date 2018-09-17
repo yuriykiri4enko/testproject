@@ -156,5 +156,15 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\TestSkill.Core\TestSkill.Core.csproj">
+      <Project>{a8f6375c-8b55-4ac7-8a1c-4d0fb6a5f79e}</Project>
+      <Name>TestSkill.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TestSkill.UI\TestSkill.UI.csproj">
+      <Project>{53db4b47-3808-4884-ac2d-6740f7456c0a}</Project>
+      <Name>TestSkill.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
