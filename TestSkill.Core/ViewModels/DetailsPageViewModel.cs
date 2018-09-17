@@ -41,11 +41,6 @@ namespace TestSkill.Core.ViewModels
             set => SetProperty(ref _itemMovie, value);
         }
 
-
-        public override void ViewDestroy(bool viewFinishing = true)
-        {
-            base.ViewDestroy(viewFinishing);
-        }
         #endregion
     }
 }
