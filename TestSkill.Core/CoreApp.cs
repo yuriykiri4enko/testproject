@@ -32,7 +32,7 @@ namespace TestSkill.Core
                 if (sqlConnection == null)
                 {
                     sqlConnection = new SQLiteAsyncConnection(
-                      Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "SunSetLocalDB.db3"));
+                      Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "LocalDB.db3"));
                 }
                 return sqlConnection;
             }
