@@ -77,18 +77,6 @@ namespace TestSkill.Core.ViewModels
             
         }
 
-
-        //public async Task InitialiseToDBAsync(List<Movie> result)
-        //{
-        //    foreach (var item in result)
-        //    {
-        //        await introController.Insert(item);
-        //    }
-        //}
-
-     
-
-
         #endregion
 
 
